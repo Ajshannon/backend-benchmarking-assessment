@@ -15,11 +15,14 @@ def alphabetize(string):
         alphabetical order.
 
         Example:
+        
 
         >>> print alphabetize('cab')
         abc
 
     """
+    stringSplit = string.split(" ")
+    print(stringSplit)
     return "".join(sorted(string.lower()))
 
 
